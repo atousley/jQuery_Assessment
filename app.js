@@ -27,5 +27,5 @@ function deleteButton() {
 }
 
 function changeColor() {
-	$(this).parent().addClass('highlight');
+	$(this).parent().toggleClass('highlight');
 }
